@@ -4,66 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISB Book store</title>
+    <style>
+        h1{
+            color: blue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>ISB BOOK STORE</h1>
-    </center> 
+    <img src="/image/Book Logo Design.jpg" alt="" width="90" height="90"><i><h1>ISB BOOK STORE</h1></i>
     <center>
         <h2>CREATE AN ACCOUNT</h2>
     </center>
     <center>
     <form action="/signin.html" method="get">
-        <label for="name">SURNAME</label>
+        <label for="name"></label>
         <br>
+            <input type="text" id="name" placeholder="Surname" style="background-color: white;">
         <br>
-            <input type="text" id="name" placeholder="Joe">
+        <label for="name"></label>
         <br>
+            <input type="text" id="name" placeholder="First name" style="background-color: white;">
         <br>
-        <label for="name">FIRST NAME</label>
+        <label for="name"></label>
         <br>
+            <input type="text" id="name" placeholder="Other name" style="background-color: white;">
         <br>
-            <input type="text" id="name" placeholder="Gabby">
+        <label for="number"></label>
         <br>
+            <input type="number" id="number" placeholder="Phone number" maxlength="11" style="background-color: white;">
         <br>
-        <label for="name">OTHER NAME</label>
+        <label for="password"></label>
         <br>
+            <input type="password" id="password" placeholder="Create password" maxlength="13" style="background-color: white;">
         <br>
-            <input type="text" id="name" placeholder="Kelio">
+        <label for="password"></label>
         <br>
+            <input type="password" id="password" placeholder="Re-type password" maxlength="13" style="background-color: white;">
         <br>
-        <label for="number">PHONE NUMBER</label>
-        <br>
-        <br>
-            <input type="number" id="number" placeholder="123456789" maxlength="11">
-        <br>
-        <br>
-        <label for="password">CREATE PASSWORD</label>
-        <br>
-        <br>
-            <input type="password" id="password" placeholder="*************" maxlength="13">
-        <br>
-        <br>
-        <label for="password">RE-TYPE PASSWORD</label>
-        <br>
-        <br>
-            <input type="password" id="password" placeholder="*************" maxlength="13">
-        <br>
-        <br>
-        <label for="gender">GENDER</label>
+        <label for="gender"></label>
             <br>
             MALE<input type="radio" name="0" id="gender">
             FEMALE<input type="radio" name="0" id="gender">
         <br>
+        <label for="USERNAME"></label>
         <br>
-        <label for="USERNAME">USERNAME</label>
-        <br>
-            <input type="text" id="username" placeholder="isa890" maxlength="8">
+            <input type="text" id="username" placeholder="username" maxlength="8" style="background-color: white;">
         <br>
         <br>
         <button type="submit">Sign Up</button>
         <br>
-        Already have an account <a href="/ISB Books/signin.html">Login In</a>
+        Already have an account <a href="/signin.html">Login In</a>
     </form>
     </center>
 </body>
