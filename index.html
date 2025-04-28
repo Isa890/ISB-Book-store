@@ -4,12 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISB Book store</title>
-    <style>
-        h1{
-            color: blue;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <img src="/image/Book Logo Design.jpg" alt="" width="90" height="90"><i><h1>ISB BOOK STORE</h1></i>
@@ -20,36 +15,36 @@
     <form action="/signin.html" method="get">
         <label for="name"></label>
         <br>
-            <input type="text" id="name" placeholder="Surname" style="background-color: white;">
+            <input type="text" id="name" placeholder="Surname" style="background-color: white;" required>
         <br>
         <label for="name"></label>
         <br>
-            <input type="text" id="name" placeholder="First name" style="background-color: white;">
+            <input type="text" id="name" placeholder="First name" style="background-color: white;" required>
         <br>
         <label for="name"></label>
         <br>
-            <input type="text" id="name" placeholder="Other name" style="background-color: white;">
+            <input type="text" id="name" placeholder="Other name" style="background-color: white;" required>
         <br>
         <label for="number"></label>
         <br>
-            <input type="number" id="number" placeholder="Phone number" maxlength="11" style="background-color: white;">
+            <input type="number" id="number" placeholder="Phone number" maxlength="11" style="background-color: white;" required>
         <br>
         <label for="password"></label>
         <br>
-            <input type="password" id="password" placeholder="Create password" maxlength="13" style="background-color: white;">
+            <input type="password" id="password" placeholder="Create password" maxlength="13" style="background-color: white;" required>
         <br>
         <label for="password"></label>
         <br>
-            <input type="password" id="password" placeholder="Re-type password" maxlength="13" style="background-color: white;">
+            <input type="password" id="password" placeholder="Re-type password" maxlength="13" style="background-color: white;" required>
         <br>
         <label for="gender"></label>
             <br>
-            MALE<input type="radio" name="0" id="gender">
-            FEMALE<input type="radio" name="0" id="gender">
+            MALE<input type="radio" name="0" id="gender" required>
+            FEMALE<input type="radio" name="0" id="gender" required>
         <br>
         <label for="USERNAME"></label>
         <br>
-            <input type="text" id="username" placeholder="username" maxlength="8" style="background-color: white;">
+            <input type="text" id="username" placeholder="username" maxlength="8" style="background-color: white;" required>
         <br>
         <br>
         <button type="submit">Sign Up</button>
